@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container navbar-content">
         <a href="/" className="logo">
-          <img src={logo} alt="NovaMove Logo" className="logo-img" />
+          <img src={logo} alt="Nova Move Inmobiliaria Madrid" className="logo-img" />
           <div className="logo-text-wrapper">
             <span className="logo-top logo-text" >NOVA</span>
             <span className="logo-bottom logo-text">MOVE</span>

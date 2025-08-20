@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c53d8ea2.css",
-    "main.js": "/static/js/main.7d81b5f5.js",
-    "static/media/cuadrado2.jpg": "/static/media/cuadrado2.113078190128bdf9997a.jpg",
-    "static/media/cuadrado1.jpg": "/static/media/cuadrado1.66a395cb15d5b69d7c18.jpg",
-    "static/media/cuadrado3.jpg": "/static/media/cuadrado3.3f8b11f762b692c26ec1.jpg",
+    "main.css": "/static/css/main.c46887e7.css",
+    "main.js": "/static/js/main.25855d9b.js",
+    "static/media/g4.jpg": "/static/media/g4.113078190128bdf9997a.jpg",
+    "static/media/g2.jpg": "/static/media/g2.66a395cb15d5b69d7c18.jpg",
+    "static/media/g1.jpg": "/static/media/g1.a2fb5f7ea7879d62ffad.jpg",
+    "static/media/g3.jpg": "/static/media/g3.3f8b11f762b692c26ec1.jpg",
     "static/media/Glaser Stencil D Regular.ttf": "/static/media/Glaser Stencil D Regular.fed7be63a12af0e35e1c.ttf",
     "index.html": "/index.html",
-    "main.c53d8ea2.css.map": "/static/css/main.c53d8ea2.css.map",
-    "main.7d81b5f5.js.map": "/static/js/main.7d81b5f5.js.map"
+    "main.c46887e7.css.map": "/static/css/main.c46887e7.css.map",
+    "main.25855d9b.js.map": "/static/js/main.25855d9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c53d8ea2.css",
-    "static/js/main.7d81b5f5.js"
+    "static/css/main.c46887e7.css",
+    "static/js/main.25855d9b.js"
   ]
 }

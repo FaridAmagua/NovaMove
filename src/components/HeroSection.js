@@ -8,7 +8,7 @@ const HeroSection = () => {
       <section className="hero-split">
         <div className="pane text left">
           <div className="text-inner">
-            <h1>Soluciones inmobiliarias hechas a tu medida</h1>
+            <h1>Inmobiliaria en Madrid Venta y Alquiler de Propiedades</h1>
             <p>para sus propiedades inmobiliarias</p>
             <a href="#que-hacemos" className="btn outline">Más información</a>
           </div>

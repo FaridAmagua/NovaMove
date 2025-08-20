@@ -10,11 +10,10 @@ const Footer = () => {
         </div>
 
         <div className="footer-contact">
+          <p><i className="fas fa-envelope"></i> info@novamovespain.es</p>
+
           <p>
-            <i className="fas fa-envelope"></i> info@novamovespain.es
-          </p>
-          <p>
-            <i className="fas fa-clock"></i> L – V de 9:00 a 21:00
+            <p><i className="fas fa-clock"></i> L – V de 9:00 a 21:00</p>
           </p>
         </div>
       </div>
