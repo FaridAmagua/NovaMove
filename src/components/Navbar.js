@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container navbar-content">
-        <a href="#" className="logo">
+        <a href="/" className="logo">
           <img src={logo} alt="NovaMove Logo" className="logo-img" />
           <div className="logo-text-wrapper">
             <span className="logo-top logo-text" >NOVA</span>

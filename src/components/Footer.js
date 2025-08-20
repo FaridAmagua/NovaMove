@@ -40,9 +40,9 @@ const Footer = () => {
         <div className="container">
           <p>
             &copy; {new Date().getFullYear()} Nova Move |{' '}
-            <a href="#">Política de privacidad</a> |{' '}
-            <a href="#">Aviso legal</a> |{' '}
-            <a href="#">Política de cookies</a>
+            <a href="/aviso-legal">Aviso legal</a>
+            <a href="/politica-de-privacidad">Política de privacidad</a>
+            <a href="/politica-de-cookies">Política de cookies</a>
           </p>
         </div>
       </div>
