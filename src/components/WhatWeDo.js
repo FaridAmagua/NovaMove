@@ -2,9 +2,8 @@ import {
   Search,
   Home,
   Paintbrush,
-  Building2,
   KeyRound,
-  Handshake,
+
 } from "lucide-react";
 
 const features = [
