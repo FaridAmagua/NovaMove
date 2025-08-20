@@ -1,31 +1,27 @@
+// src/components/Gallery.js
 import React from 'react';
-import cuadrado1 from '../assets/cuadrado1.jpg'; // una ruta ../ suele bastar
-import cuadrado2 from '../assets/cuadrado2.jpg'; // una ruta ../ suele bastar
-import cuadrado3 from '../assets/cuadrado3.jpg'; // una ruta ../ suele bastar
+
+// importa tus imágenes (pon las que quieras)
+import g1 from '../assets/gallery/g1.jpg';
+import g2 from '../assets/gallery/g2.jpg';
+import g3 from '../assets/gallery/g3.jpg';
+import g4 from '../assets/gallery/g4.jpg';
 
 const Gallery = () => {
   const images = [
-    {
-      src: cuadrado1, // ✅ sin llaves
-      alt: 'Imagen 1',
-    },
-    {
-      src: cuadrado2,
-      alt: 'Imagen 2',
-    },
-    {
-      src: cuadrado3,
-      alt: 'Imagen 3',
-    },
+    { src: g1, alt: 'Proyecto 1' },
+    { src: g2, alt: 'Proyecto 2' },
+    { src: g3, alt: 'Proyecto 3' },
+    { src: g4, alt: 'Proyecto 4' },
   ];
 
   return (
-    <section className="gallery">
-      <div className="gallery-row">
-        {images.map((img, idx) => (
-          <div className="gallery-item" key={idx}>
+    <section className="gallery-strip" aria-label="Galería de proyectos">
+      <div className="gallery-strip-row">
+        {images.map((img, i) => (
+          <figure className="strip-item" key={i}>
             <img src={img.src} alt={img.alt} loading="lazy" />
-          </div>
+          </figure>
         ))}
       </div>
     </section>
