@@ -1,0 +1,14 @@
+# Forzar https y dominio canónico .com sin www
+http://novamovespain.com/*       https://novamovespain.com/:splat 301!
+http://www.novamovespain.com/*   https://novamovespain.com/:splat 301!
+https://www.novamovespain.com/*  https://novamovespain.com/:splat 301!
+
+# Redirigir .es -> .com
+http://novamovespain.es/*        https://novamovespain.com/:splat 301!
+http://www.novamovespain.es/*    https://novamovespain.com/:splat 301!
+https://novamovespain.es/*       https://novamovespain.com/:splat 301!
+https://www.novamovespain.es/*   https://novamovespain.com/:splat 301!
+
+# Fallback SPA (si usas React Router/SPA)
+# (debe ir al final)
+ / * /index.html 200

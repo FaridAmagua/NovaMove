@@ -1,14 +1,17 @@
-# Forzar https y dominio canónico .com sin www
-http://novamovespain.com/*       https://novamovespain.com/:splat 301!
-http://www.novamovespain.com/*   https://novamovespain.com/:splat 301!
-https://www.novamovespain.com/*  https://novamovespain.com/:splat 301!
+# 1) Deja pasar los desafíos de Let's Encrypt (ACME)
+#    ¡ESTA LÍNEA DEBE IR PRIMERO!
+/.well-known/*    /:splat    200!
 
-# Redirigir .es -> .com
-http://novamovespain.es/*        https://novamovespain.com/:splat 301!
-http://www.novamovespain.es/*    https://novamovespain.com/:splat 301!
-https://novamovespain.es/*       https://novamovespain.com/:splat 301!
-https://www.novamovespain.es/*   https://novamovespain.com/:splat 301!
+# 2) Canonical: forzar HTTPS y dominio .com sin www
+http://novamovespain.com/*        https://novamovespain.com/:splat   301!
+http://www.novamovespain.com/*    https://novamovespain.com/:splat   301!
+https://www.novamovespain.com/*   https://novamovespain.com/:splat   301!
 
-# Fallback SPA (si usas React Router/SPA)
-# (debe ir al final)
- / * /index.html 200
+# 3) Redirigir .es -> .com
+http://novamovespain.es/*         https://novamovespain.com/:splat   301!
+http://www.novamovespain.es/*     https://novamovespain.com/:splat   301!
+https://novamovespain.es/*        https://novamovespain.com/:splat   301!
+https://www.novamovespain.es/*    https://novamovespain.com/:splat   301!
+
+# 4) Fallback SPA (React Router, etc.) — debe ir al final
+/*   /index.html   200
