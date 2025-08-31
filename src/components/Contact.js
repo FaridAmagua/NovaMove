@@ -104,9 +104,9 @@ const Contact = () => {
             </div>
           </form>
 
-          <p className="contact-footnote">
+          {/* <p className="contact-footnote">
             Respuesta habitual en menos de 24 h laborables.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>
