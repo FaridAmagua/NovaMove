@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import logo from '../assets/negro.png'; // tu logo imagen
+import logo from '../assets/negro2.png'; // tu logo imagen
+import logo2 from '../assets/letras.png'; // tu logo imagen
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,8 +15,8 @@ const Navbar = () => {
         <a href="/" className="logo">
           <img src={logo} alt="Nova Move Inmobiliaria Madrid" className="logo-img" />
           <div className="logo-text-wrapper">
-            <span className="logo-top logo-text" >NOVA</span>
-            <span className="logo-bottom logo-text">MOVE</span>
+            <img src={logo2} alt="Nova Move Inmobiliaria Madrid" className="logo-img" />
+
           </div>
         </a>
         <button className="burger" onClick={toggleMenu} aria-label="Menú">
